@@ -4,6 +4,6 @@ import com.example.infosysassignment.feature.authentication.data.model.AuthRespo
 
 class AuthService: AuthApi {
     override suspend fun login(userName: String, password: String): AuthResponse {
-        return AuthResponse(id = 1, name = "Akshay")
+        return AuthResponse(id = 1, name = userName)
     }
 }

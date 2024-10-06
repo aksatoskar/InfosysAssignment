@@ -1,4 +1,4 @@
-package com.example.infosysassignment.view.theme
+package com.example.infosysassignment.common.theme
 
 import android.app.Activity
 import android.os.Build
